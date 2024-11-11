@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.counter {
+    text-align: center;
+}
+
+.counter h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.count {
+    font-size: 36px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.democrats {
+    color: #0015bc;
+}
+
+.republicans {
+    color: #ff0000;
+}
+
+.loading, .error {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+}
+
+.error {
+    color: #ff0000;
+}
+
+.vote-info {
+    font-size: 14px;
+    color: #555;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.banner {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: x-large;
+    font-weight: 500;
+    color: #171717;
+}
+
+.banner a {
+    text-decoration: underline;
+}
